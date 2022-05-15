@@ -1,0 +1,45 @@
+.profile{
+    height: 25vh;
+    width: 11vw;
+    border-radius: 100px;
+}
+.user-account{
+    display: flex;
+    gap: 10rem;
+}
+.action-acc{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.delete-acc{
+    background-color: white;
+    border: 1px solid rgba(255, 0, 0, 0.315);
+    border-radius: 5px;
+}
+.edit-pro{
+    background-color: white;
+    color: #12620bad;
+    font-weight: bolder;
+}
+.per-info p{
+    border: 2px solid #12620b38;
+    height: 6vh;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.per-info button{
+    background-color: #12620bad;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 6vh;
+    color: white;
+
+}

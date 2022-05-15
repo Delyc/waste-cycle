@@ -1,0 +1,68 @@
+footer{
+    position: relative;
+    top: 5rem;
+    background-color: black;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+}
+footer h1{
+    color: #12620b;
+    font-size: 1.2rem;
+}
+footer p{
+    color: white;
+}
+.first-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+
+}
+
+.first-section form button{
+    background-color: #12620b;
+    color: white;
+    
+}
+.about{
+    word-break: break-all;
+  
+    width: 70%;
+}
+.sub{
+    
+    width: 20%;
+}
+.slogan{
+    width: 80%;
+}
+.social{
+    display: flex;
+    gap: 0.5rem;
+}
+.follow{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+    justify-content: space-between;
+    gap: 5rem;
+}
+.fholder{
+    width: 50%;
+   
+}
+.ftr{
+    display: flex;
+    padding-right: 2rem;
+}
+.con{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

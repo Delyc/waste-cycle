@@ -1,0 +1,146 @@
+
+/* sign up */
+.signup{
+ 
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ 
+    height: 100vh;
+   
+    width: 60%;
+    
+  }
+  .login{
+ 
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ 
+    height: 70vh;
+   
+    width: 60%;
+    
+  }
+  .login form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 3rem;
+    
+    gap: 0.5rem;
+    position: relative;
+   
+  }
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  select, option {
+    height: 6vh;
+    border-radius: 3px;
+    border: 0;
+ 
+    text-align: center;
+    color: #12620bad !important ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+  }  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"],
+  select, option :focus{
+      outline: 0;
+  }
+  form img{
+      height: 4vh;
+      width: 2vw;
+      position: absolute;
+      top: 0.3rem;
+      left: 1rem;
+  }
+  .mail{
+    top: 3.8rem;
+
+  }
+  .pass{
+      top: 7.3rem;
+
+  }
+  .user-icon{
+      top: 10.4rem;
+      width: 2vw;
+
+  }
+  .pass-l{
+      top: 4rem;
+  }
+  .sgn{
+      display: flex;
+      
+    
+    width: 70%;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .parent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+     top: 2rem;
+     bottom: 0 !important;
+  }
+  .parent-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+   
+}
+  .img img{
+         
+      width: 100%;
+      height: 80%;
+     
+  }
+  .img-login img{
+         
+    width: 100%;
+    height: 100%;
+   
+}
+  .img{
+      width: 80%;
+      height: 100vh;
+      }
+      .img-login{
+        width: 80%;
+        height: 80vh;
+        }
+      .img h3,.signup h2, .login h2{
+          color: #12620bad;
+      }
+      .img p{
+          width: 70%;
+      }
+      .signup span, .login span{
+          color: #12620bad;
+          font-weight: bolder;
+      }
+      .signup h2{
+          margin-bottom: 0;
+      }
+      .sgn button{
+          background-color: #12620bad;
+          color: white;
+          font-weight: bolder;
+          height: 7vh;
+      }
+      .sgn input{
+          height: 7vh !important;
+      }
+
+    

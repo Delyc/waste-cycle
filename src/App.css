@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+
+.sell{
+  display: flex;
+  align-items: center;
+}
+.sell h1{
+  width: 8rem;
+  color: #12620bad;
+ 
+}
+.sell-recycle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 6rem;
+  gap: 2rem;
+}
+.selldiv p{
+  width: 100%;
+}
+.selldiv{
+
+  width: 25%;
+}
+.selldiv button{
+  background-color: #12620bad ;
+  color: white;
+  border: 0;
+  width: 8vw;
+  height: 5vh;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+
+
+
+
+.productHome{
+  position: relative;
+  top: 10rem;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.search::placeholder {
+  opacity: 1;
+  color: #12620bad;
+}
+.search-form input{
+
+  border: 0;
+  border-bottom: thin solid #12620bad;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.form img{
+  position: absolute;
+  left: 45%;
+}
+
+
+
+.started{
+  position: relative;
+  height: 100vh;
+  top: 15rem;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.started h3{
+  color: #12620bad;
+  font-size: 1.5rem;
+}
+.user-type{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimony{
+  position: relative;
+  
+  height: 100vh;
+  top: 10rem;
+ 
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.testimony-comp{
+
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: ccenter;
+  width: 80%;
+}
+
+
+
